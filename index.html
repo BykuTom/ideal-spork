@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sparta - html basic with Nish</title>
+    <meta name="description" content="Website is here" />
+    <link rel="stylesheet" href="CSS/index.css" />
+    <script type="module" src="JS/index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <section class="header-top section-container">
+        <nav class="navigation">
+          <ul>
+            <li><a href="#DifferentSection">About me</a></li>
+            <li><a href="#DifferentSection">Skills</a></li>
+            <li><a href="#DifferentSection">Portfolio</a></li>
+            <li><a href="#DifferentSection">Contact me</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <section class="about-me-section section-container">
+        <div class="image-container"><img src="IMG/tomasz.png" alt="" /></div>
+        <div class="about-me-container">
+          <h1>About me</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+            molestias odio ad ea ex perspiciatis maxime ipsa velit voluptatibus
+            eligendi consequatur enim doloribus sint qui, cumque ducimus sit
+            mollitia possimus!
+          </p>
+        </div>
+      </section>
+      <section class="skills-section section-container">
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="heading">Skills</th>
+              <th class="heading">My hobbies</th>
+              <th class="heading">Goals</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <ul>
+                  <li>Web development</li>
+                  <li>frontend</li>
+                  <li>Backend</li>
+                  <li>testing</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Coding</li>
+                  <li>Working out</li>
+                  <li>Traveling</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Get better at Java</li>
+                  <li>Get good at testing</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="news-container section-container">
+        <h1 class="heading">News search</h1>
+        <form action="https://www.bbc.co.uk/search" target="_blank">
+          <label for="mysearch">Search for:</label>
+          <input type="text" id="mysearch" name="q" value="London" />
+          <input type="submit" class="button" value="Submit" />
+        </form>
+      </section>
+    </main>
+    <footer class="footer-container">
+      <p>Copyright &#169; Tomasz Wolak 2024</p>
+    </footer>
+  </body>
+</html>
